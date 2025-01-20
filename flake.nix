@@ -38,7 +38,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.pythoneda-shared-pythonlang-banner.follows =
         "pythoneda-shared-pythonlang-banner";
-      url = "github:pythoneda-shared-pythonlang-def/infrastructure/0.0.92";
+      url = "github:pythoneda-shared-pythonlang-def/infrastructure/0.0.93";
     };
     pythoneda-tools-runtime-flow-inspector = {
       inputs.flake-utils.follows = "flake-utils";
