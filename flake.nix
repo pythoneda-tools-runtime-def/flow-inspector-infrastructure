@@ -31,14 +31,14 @@
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.pythoneda-shared-pythonlang-banner.follows =
         "pythoneda-shared-pythonlang-banner";
-      url = "github:pythoneda-shared-pythonlang-def/domain/0.0.123";
+      url = "github:pythoneda-shared-pythonlang-def/domain/0.0.124";
     };
     pythoneda-shared-pythonlang-infrastructure = {
       inputs.flake-utils.follows = "flake-utils";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.pythoneda-shared-pythonlang-banner.follows =
         "pythoneda-shared-pythonlang-banner";
-      url = "github:pythoneda-shared-pythonlang-def/infrastructure/0.0.96";
+      url = "github:pythoneda-shared-pythonlang-def/infrastructure/0.0.97";
     };
     pythoneda-tools-runtime-flow-inspector = {
       inputs.flake-utils.follows = "flake-utils";
@@ -47,7 +47,7 @@
         "pythoneda-shared-pythonlang-banner";
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
-      url = "github:pythoneda-tools-runtime-def/flow-inspector/0.0.12";
+      url = "github:pythoneda-tools-runtime-def/flow-inspector/0.0.13";
     };
   };
   outputs = inputs:
